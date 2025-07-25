@@ -1,0 +1,13 @@
+[project]
+name = "demo-high-load"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "aio-pika>=9.5.5",
+    "asyncpg>=0.30.0",
+    "fastapi>=0.116.1",
+    "redis[hiredis]>=6.2.0",
+    "uvicorn[standard]>=0.35.0",
+]
